@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>message</title>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+
+<body>
+
+  <div class="clr">
+    <div class="box2"></h1>
+      <p id="demo"></p>
+    </div>
+    <div class="box1">
+      <input id="text" placeholder="Type a message"/>
+      <button>send</button>
+    </div>
+  </div>
+
+<script>
+   $('button').click(function(){
+   let text=$('#text').val()
+   $('#demo').append(text+"<br>")
+   $('#text').val("")
+   })
+</script>
+
+
+</body>
+
+
+
+</html>
