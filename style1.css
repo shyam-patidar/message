@@ -21,7 +21,9 @@ body{
     width: 50vw;
     height: 90vh;
     font-size: 40px;
-    align-items: flex-start;
+    align-items: flex-end;
+    display: flex;
+
 }
 .box1{
    
@@ -45,7 +47,8 @@ button{
     color: white;
     border-radius: 5px;
 }
-.demo{
-    padding-left: 5%;
-    padding-right: 5%;
+#demo{
+    text-align: right;
+    display: block;
+    width: 100%;
 }
